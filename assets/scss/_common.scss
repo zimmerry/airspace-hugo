@@ -18,19 +18,19 @@ a:focus,
 a:hover {
   text-decoration: none;
   outline: 0;
-  color: $color-primary;
+  color: $primary-color;
 }
 
 blockquote {
   font-size: 18px;
-  border-color: $color-primary;
+  border-color: $primary-color;
   padding: 20px 40px;
   text-align: left;
-  color: darken( $light, 50.98);
+  color: #777;
 }
 
 .navbar-toggle .icon-bar {
-  background: $color-primary;
+  background: $primary-color;
 }
 
 input[type="email"],
@@ -44,7 +44,7 @@ input[type="tel"] {
 
   &:focus {
     box-shadow: none;
-    border: 1px solid $color-primary;
+    border: 1px solid $primary-color;
   }
 }
 
@@ -55,7 +55,7 @@ input[type="tel"] {
 
   &:focus {
     box-shadow: none;
-    border: 1px solid $color-primary;
+    border: 1px solid $primary-color;
   }
 }
 
@@ -68,8 +68,8 @@ input[type="tel"] {
 // Button Style
 
 .btn-main {
-  background: $color-primary;
-  color: $white;
+  background: $primary-color;
+  color: $light;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -87,20 +87,20 @@ input[type="tel"] {
   }
 
   &:hover {
-    background: darken($color-primary, 20%);
-    color: $white;
+    background: darken($primary-color, 20%);
+    color: $light;
   }
 }
 
 
 .btn-solid-border {
-  border: 1px solid $white;
+  border: 1px solid $light;
   background: transparent;
-  color: $white;
+  color: $light;
 
   &:hover {
-    border: 1px solid $color-primary;
-    background: $color-primary;
+    border: 1px solid $primary-color;
+    background: $primary-color;
   }
 }
 
@@ -109,11 +109,11 @@ input[type="tel"] {
   @extend .btn-main;
   background: transparent;
   padding: 0;
-  color: $color-primary;
+  color: $primary-color;
 
   &:hover {
     background: transparent;
-    color: $color-primary;
+    color: $primary-color;
   }
 }
 
@@ -180,7 +180,7 @@ input[type="tel"] {
 }
 
 .btn:focus {
-  color: darken( $light, 10.9);
+  color: #ddd;
 }
 
 .w-100 {
@@ -200,7 +200,7 @@ input[type="tel"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: $white;
+  background-color: #fff;
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -208,25 +208,25 @@ input[type="tel"] {
 }
 
 .bg-shadow {
-  background-color: $white;
+  background-color: $light;
   box-shadow: 0 16px 24px rgba(0, 0, 0, .08);
   padding: 20px;
 }
 
 .bg-gray {
-  background: $light;
+  background: #f9f9f9;
 }
 
 .bg-primary {
-  background: $color-primary;
+  background: $primary-color;
 }
 
 .bg-primary-dark {
-  background: darken($color-primary, 10%);
+  background: darken($primary-color, 10%);
 }
 
 .bg-primary-darker {
-  background: darken($color-primary, 20%);
+  background: darken($primary-color, 20%);
 
 }
 
@@ -275,8 +275,8 @@ input[type="tel"] {
 
   p {
     font-style: italic;
-    color: darken( $light, 57.64);
-    font-family: $font-secondary;
+    color: #666;
+    font-family: $secondary-font;
   }
 }
 
@@ -304,7 +304,7 @@ input[type="tel"] {
     text-align: center;
 
     h1 {
-      color: $white;
+      color: $light;
       font-weight: 200;
       letter-spacing: 0.15em;
       margin-top: 0;
@@ -312,7 +312,7 @@ input[type="tel"] {
     }
 
     p {
-      color: $white;
+      color: $light;
     }
   }
 }
@@ -323,7 +323,7 @@ input[type="tel"] {
   text-align: center;
 
   h2 {
-    color: $black;
+    color: #000;
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
@@ -332,7 +332,7 @@ input[type="tel"] {
   p {
     font-size: 18px;
     line-height: 40px;
-    color: lighten( $black, 16.078);
+    color: #292929;
     font-weight: 300;
   }
 }
@@ -362,10 +362,10 @@ input[type="tel"] {
 
       a {
         font-size: 18px;
-        color: lighten( $black, 20 );
+        color: #333;
         display: inline-block;
         padding: 7px 12px;
-        color: $white;
+        color: $light;
 
       }
 
@@ -418,7 +418,7 @@ input[type="tel"] {
     transform: translate(0px, 0px);
     opacity: 1;
     visibility: visible;
-    color: darken( $light, 50.98);
+    color: #777;
     transform: translateY(0px);
   }
 
@@ -453,7 +453,7 @@ input[type="tel"] {
 
   &:before {
     content: '\f3d0';
-    font-family: $font-icon;
+    font-family: $icon-font;
     position: absolute;
     right: -4px;
     top: 4px;
@@ -467,7 +467,7 @@ input[type="tel"] {
     border: none;
     padding: 0;
     height: auto;
-    color: lighten( $black, 33.3 );
+    color: #555;
 
     &:focus {
       box-shadow: none;
@@ -486,19 +486,19 @@ input[type="tel"] {
     }
 
     li.active a {
-      background-color: $color-primary;
-      border: 1px solid $color-primary;
-      color: $white;
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+      color: #ffffff;
     }
 
     a {
       border-radius: 0;
-      background: $light;
+      background: #f9f9f9;
 
       &:hover {
         border: 1px solid transparent;
-        background: $color-primary;
-        color: $white;
+        background: $primary-color;
+        color: $light;
       }
     }
   }
@@ -531,11 +531,11 @@ input[type="tel"] {
       }
 
       a:before {
-        color: lighten( $black, 33.3 );
+        color: #555;
         content: "\f209";
         position: absolute;
         right: 25px;
-        font-family: $font-icon;
+        font-family: $icon-font;
       }
 
       a.collapsed:before {
@@ -585,7 +585,7 @@ input[type="tel"] {
 
 .alert-solid {
   background: transparent;
-  color: $color-primary;
+  color: $primary-color;
 }
 
 .buttonPart {
@@ -614,14 +614,14 @@ input[type="tel"] {
     right: 0;
     width: 100%;
     height: 100%;
-    background: darken($color-primary, 25);
+    background: #1d192c;
     opacity: 0.8;
   }
 }
 
 .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: $color-primary !important;
+  background: $primary-color !important;
 }
 
 

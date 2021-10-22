@@ -1,5 +1,5 @@
 .navigation {
-  background: $white;
+  background: #fff;
   padding: 20px 0;
 
   .navbar {
@@ -19,7 +19,7 @@
       padding-top: 10px;
 
       a {
-        color: #7b7b7b;
+        color: #5C5C5C;
         padding: 10px 15px;
 
         font : {
@@ -31,28 +31,24 @@
 
         &:hover,
         &:focus {
-          color: $black;
+          color: #000;
           background: transparent;
         }
       }
 
       a.current {
-        color: $black;
+        color: #000;
         pointer-events: none;
         cursor: default;
       }
 
       a.current-parent {
-        color: $black;
+        color: #000;
       }
 
       select {
         margin: 10px 15px;
       }
-    }
-
-    .current > .dropdown-toggle {
-      color: $black;
     }
 
     .dropdown-menu {
@@ -64,21 +60,21 @@
       a {
         text-transform: none;
         font-weight: normal;
-        color: darken( $light, 47.45);
+        color: #808080;
         padding: 10px 20px;
         @include transition-multi (color 0.1s ease, padding 0.3s ease);
 
         &:hover {
-          background: $color-primary;
-          color: $white;
+          background: $primary-color;
+          color: $light;
           padding-left: 25px;
         }
       }
 
       a.current {
         padding-left: 25px;
-        color: $white;
-        background: $color-primary;
+        color: $light;
+        background: $primary-color;
       }
     }
   }
@@ -129,10 +125,6 @@
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .collapse {
-    clear: both;
   }
 
   .collapse.in {
