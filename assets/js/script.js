@@ -1,25 +1,6 @@
-// Passive event listeners
-jQuery.event.special.touchstart = {
-  setup: function (_, ns, handle) {
-    'use strict';
-    this.addEventListener('touchstart', handle, {
-      passive: !ns.includes('noPreventDefault')
-    });
-  }
-};
-jQuery.event.special.touchmove = {
-  setup: function (_, ns, handle) {
-    'use strict';
-    this.addEventListener('touchmove', handle, {
-      passive: !ns.includes('noPreventDefault')
-    });
-  }
-};
-
 // Preloader js
 $(window).on('load', function () {
-  'use strict';
-  $('.preloader').fadeOut(0);
+  $('.preloader').fadeOut(100);
 });
 
 $(document).ready(function () {
@@ -65,6 +46,24 @@ $(document).ready(function () {
     autoplaySpeed: 2000
   });
 
+
+  // Magnific Popup Image
+  $('.portfolio-popup').magnificPopup({
+    type: 'image',
+    removalDelay: 160, //delay removal by X to allow out-animation
+    callbacks: {
+      beforeOpen: function () {
+        // just a hack that adds mfp-anim class to markup
+        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+        this.st.mainClass = this.st.el.attr('data-effect');
+      }
+    },
+    closeOnContentClick: true,
+    midClick: true,
+    fixedContentPos: true,
+    fixedBgPos: true
+  });
+
   //  Count Up
   function counter() {
     var oTop;
@@ -107,7 +106,4 @@ $(document).ready(function () {
     emailSpan.parentElement.insertBefore(emailLink, emailSpan);
     emailSpan.parentElement.removeChild(emailSpan)
   }
-
-	// map initialize
-	$(map);
 });

@@ -4,6 +4,10 @@ description: "this is meta description"
 bg_image: "images/feature-bg.jpg"
 layout: "about"
 draft: false
+menu:
+  main:
+    name: "About"
+    weight: 2
 
 
 ################################## About #####################################
@@ -25,32 +29,32 @@ about:
 
   funfacts:
   # funfacts loop
-  - icon : "fas fa-flask" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Completed Projects"
     count : "349"
 
   # funfacts loop
-  - icon : "fas fa-fire-alt" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Lines Of Code"
     count : "35000"
 
   # funfacts loop
-  - icon : "fas fa-glasses" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Satisfied Customer"
     count : "70"
 
   # funfacts loop
-  - icon : "fas fa-trophy" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Awards Winner"
     count : "10"
 
   # funfacts loop
-  - icon : "fas fa-glass-cheers" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Satisfied Customer"
     count : "75"
 
   # funfacts loop
-  - icon : "fas fa-certificate" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Awards Winner"
     count : "20"
 
@@ -60,32 +64,32 @@ features:
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
-  - icon : "fab fa-app-store-ios" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "IOS App Development"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
   # feature item loop
-  - icon : "fas fa-unlock" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "App Secutity"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
   # feature item loop
-  - icon : "fas fa-gamepad" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Games Development"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
   # feature item loop
-  - icon : "fas fa-microphone" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Animation and Editing"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
   # feature item loop
-  - icon : "fas fa-lightbulb" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "UI/UX Design"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
   # feature item loop
-  - icon : "fas fa-star-of-life" #https://fontawesome.com/v5.15/icons
+  - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
     name : "Branding"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 

@@ -25,11 +25,10 @@
 
     i {
       font-size: 35px;
-      margin-bottom: 20px;
     }
 
     p {
-      font-family: $font-secondary;
+      font-family: $secondary-font;
       line-height: 28px;
       padding-bottom: 20px;
     }
@@ -43,7 +42,7 @@
       }
 
       p {
-        font-family: $font-primary;
+        font-family: $primary-font;
         padding-bottom: 0;
         margin-top: 6px;
         font-size: 12px;
@@ -51,7 +50,7 @@
 
         span {
           display: block;
-          color: lighten( $black, 22.54 );
+          color: #353241;
           font-weight: 600;
         }
       }
@@ -67,7 +66,7 @@
     }
 
     .owl-carousel .owl-pagination div.active {
-      background: lighten( $black, 36.07);
+      background: #5C5C5C;
       font-size: 30px;
       display: inline-block;
       border: 0px;
@@ -78,7 +77,6 @@
 .counter-box {
   i {
     font-size: 35px;
-    margin-bottom: 15px;
   }
 
   h4 {
@@ -87,6 +85,6 @@
   }
 
   span {
-    color: lighten( $black, 33.3 );
+    color: #555;
   }
 }

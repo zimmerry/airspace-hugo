@@ -3,11 +3,11 @@
 ==================================================================*/
 
 .blog {
-  background: darken( $light, 1.17);
+  background: #F6F6F6;
 }
 
 .post {
-  background: $white;
+  background: $light;
   margin-bottom: 55px;
 
   @include tablet {
@@ -34,10 +34,10 @@
     text-transform: uppercase;
 
     a {
-      color: $color-primary;
+      color: $primary-color;
 
       &:hover {
-        color: $color-primary;
+        color: $primary-color;
       }
     }
   }
@@ -49,16 +49,16 @@
     ul {
       li {
         display: inline-block;
-        color: lighten( $black, 56.47 );
+        color: #909090;
         margin-right: 20px;
         font-size: 12px;
         letter-spacing: .5px;
 
         a {
-          color: lighten( $black, 56.47 );
+          color: #909090;
 
           &:hover {
-            color: $color-primary;
+            color: $primary-color;
           }
         }
       }
@@ -79,22 +79,22 @@
     ul {
       font-size: 15px;
       padding: 10px 20px;
-      font-family: $font-primary;
+      font-family: $primary-font;
       list-style: circle;
     }
     ol {
       font-size: 15px;
       padding: 10px 20px;
-      font-family: $font-primary;
+      font-family: $primary-font;
     }
 
     blockquote {
       margin-top: 20px;
       font-size: 18px;
-      border-color: $color-primary;
+      border-color: $primary-color;
       padding: 10px 20px;
       text-align: left;
-      color: darken( $light, 50.98);
+      color: #777;
     }
 
     .btn-main {
@@ -126,15 +126,15 @@
       @include transition (all, 0.3s, ease);
 
       &:hover {
-        color: $white;
-        background: $color-primary;
-        border: 1px solid $color-primary;
+        color: $light;
+        background: $primary-color;
+        border: 1px solid $primary-color;
       }
     }
 
     &.active>a {
-      background: $color-primary !important;
-      border: 1px solid $color-primary !important;
+      background: $primary-color !important;
+      border: 1px solid $primary-color !important;
     }
   }
 

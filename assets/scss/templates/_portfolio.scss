@@ -14,9 +14,9 @@
           padding: 8px 25px;
           cursor: pointer;
           font-size: 15px;
-          color: lighten( $black, 20 );
+          color: #333333;
           outline: 0;
-          background: $white;
+          background: $light;
           margin: 2px;
           border-radius: 0;
           @include transition (all, 0.3s, ease);
@@ -71,7 +71,7 @@
     transition: inherit;
 
     * {
-      color: $white;
+      color: $light;
     }
 
     a {
@@ -102,13 +102,13 @@
     }
 
     span {
-      color: lighten( $black, 51.3 );
+      color: #838383;
       width: 180px;
       display: inline-block;
     }
 
     strong {
-      color: lighten( $black, 19.2 );
+      color: #313131;
       font-weight: normal;
     }
 

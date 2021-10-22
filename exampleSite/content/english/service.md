@@ -4,6 +4,11 @@ description: "this is meta description"
 bg_image: "images/feature-bg.jpg"
 layout: "service"
 draft: false
+menu:
+  main:
+    parent: "More"
+    name: "Service"
+    weight: 1
 
 ########################### about service #############################
 about:
@@ -26,19 +31,19 @@ featured_service:
   service_item:
     # featured service item loop
     - name : "Interface Design"
-      icon : "fas fa-flask"
+      icon : "ion-erlenmeyer-flask"
       color : "primary"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
     # featured service item loop
     - name : "Product Branding"
-      icon : "fas fa-leaf"
+      icon : "ion-leaf"
       color : "primary-dark"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
     # featured service item loop
     - name : "Game Development"
-      icon : "fas fa-lightbulb"
+      icon : "ion-lightbulb"
       color : "primary-darker"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
@@ -51,42 +56,42 @@ service:
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
   service_item:
     # service item loop
-    - icon : fas fa-bullseye #https://fontawesome.com/v5.15/icons
+    - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/
       name: Branding
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-layer-group #https://fontawesome.com/v5.15/icons
+    - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/
       name: Web Design
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-image #https://fontawesome.com/v5.15/icons
+    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/
       name: App Design
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-bug #https://fontawesome.com/v5.15/icons
+    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/
       name: Start Up
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-headphones-alt #https://fontawesome.com/v5.15/icons
+    - icon : ion-headphone #ionicon pack v2 : https://ionicons.com/v2/
       name: Logo Design
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-leaf #https://fontawesome.com/v5.15/icons
+    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/
       name: Development
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-globe-asia #https://fontawesome.com/v5.15/icons
+    - icon : ion-planet #ionicon pack v2 : https://ionicons.com/v2/
       name: Brand Identity
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : fas fa-feather #https://fontawesome.com/v5.15/icons
+    - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/
       name: Brand Identity
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
